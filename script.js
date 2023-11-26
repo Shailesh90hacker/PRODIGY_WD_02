@@ -36,7 +36,7 @@ function start() {
     if (timer !== 0) {
         clearInterval(timer);
     }
-    timer = setInterval(stopwatch, 1);
+    timer = setInterval(stopwatch, 10);
 }
 
 function stop() {
